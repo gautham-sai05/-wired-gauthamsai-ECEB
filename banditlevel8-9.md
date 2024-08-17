@@ -6,7 +6,7 @@
 
 Used the SSH command to login to the server with the provided password
 
-Command: ssh bandit7@bandit.labs.overthewire.org -p 2220
+Command: ssh bandit8@bandit.labs.overthewire.org -p 2220
 
 2.Finding the file
 
