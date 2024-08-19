@@ -42,11 +42,11 @@ Command:xxd -r compressed_file.hex compressed_file.bin
 
 Using file and extracting commands repeatedly to get the ASCII text file
 
-Commands:file compressed_file.bin
-         mv compresssed_file.bin compressed_file.gz
-         gunzip compressed_file.gz
-         bunzip2 data6.bz2
-         tar -xf data8.bin
+Commands:file compressed_file.bin<br>
+         mv compresssed_file.bin compressed_file.gz<br>
+         gunzip compressed_file.gz<br>
+         bunzip2 data6.bz2<br>
+         tar -xf data8.bin<br>
 
 8.Opening the file and getting the password
 
