@@ -19,3 +19,31 @@ Command:ls
 Using mktemp command created temp directory
 
 Command:mktemp -d
+
+4.Copying data.txt to temp file
+
+Using cp command copied data.txt to temp file
+
+Command:cp /home/bandit12/data.txt /tmp/tmp.UmYCjx1hWx
+
+5.Changed name and extension
+
+Using mv command renamed the file
+
+Command:mv data.txt compressed_file.hex
+
+6.Converted the hexdump back into its original binary format 
+
+Using xxd command converted the hexdump back into its original binary format 
+
+Command:xxd -r compressed_file.hex compressed_file.bin
+
+7.Analysing the file type and extracting the file
+
+Using file and extracting commands repeatedly to get the ASCII text file
+
+Commands:file compressed_file.bin
+         mv compresssed_file.bin compressed_file.gz
+         gunzip compressed_file.gz
+
+
