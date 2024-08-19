@@ -45,5 +45,13 @@ Using file and extracting commands repeatedly to get the ASCII text file
 Commands:file compressed_file.bin
          mv compresssed_file.bin compressed_file.gz
          gunzip compressed_file.gz
+         bunzip2 data6.bz2
+         tar -xf data8.bin
+
+8.Opening the file and getting the password
+
+Using cat command opened the final ouput file after extraction to get password
+
+Command:cat data8
 
 
