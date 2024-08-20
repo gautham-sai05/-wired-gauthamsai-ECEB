@@ -1,4 +1,4 @@
-#Bandit level 12-13 write-up
+#Bandit level 13-14 write-up
 
 ##Objective: Find the password for next level from a file called bandit14 which is only accessible by user named bandit14
 
